@@ -2,9 +2,24 @@ li {
     list-style: none;
 }
 
-footer {
-    border-top: solid 2px;
-    border-color:#4b6cb7;
+.bordernav {
+    border-left: solid 20px;
+    border-right: solid 20px;
+    border-right-color: #141E30;
+    border-left-color: #243B55;
+}
+
+.bn2 {
+ border-top: solid 20px;
+ border-color: #243B55;  /* fallback for old browsers */
+ border-color: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+ border-color: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+.borderheader {
+
+  border-bottom: solid 10px #243B55;
 }
 
 .borderprogram {
@@ -16,6 +31,17 @@ footer {
 .borderprogram2 {
     border-top: solid 1px;
     border-color:#434343;
+}
+
+.borderfooter {
+    border-top: solid 5px;
+    border-color: #243B55;
+}
+
+.bg-dred {
+ background: #243B55;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .bg-dblack {

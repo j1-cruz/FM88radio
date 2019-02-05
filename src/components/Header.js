@@ -6,7 +6,7 @@ import './App.css';
 
 
 export default () => (
-      <div className="row bg-dceleste no-gutters d-none d-sm-flex">
+      <div className="row bg-dred no-gutters d-none d-sm-flex borderheader">
              <div className="col-3">
                 <img src="assets/images/logofm.png"  alt="logofm88"  width={220} height={220}/>
             </div>
