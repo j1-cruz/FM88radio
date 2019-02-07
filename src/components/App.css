@@ -2,11 +2,22 @@ li {
     list-style: none;
 }
 
+.ReactAudioPlayer {
+  background:red;
+  color:red;
+}
+
 .bordernav {
-    border-left: solid 20px;
-    border-right: solid 20px;
+    border-top-right-radius: 15%;
+    border-top-left-radius: 15%;
+    border-left: solid 25px;
+    border-right: solid 25px;
     border-right-color: #141E30;
     border-left-color: #243B55;
+}
+
+.controls {
+  color:red;
 }
 
 .bn2 {

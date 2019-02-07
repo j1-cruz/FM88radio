@@ -39,7 +39,7 @@ export default class Example extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className="container">
         <Navbar className="bordernav d-none d-sm-flex bn2" dark expand="md">
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
@@ -59,6 +59,10 @@ export default class Example extends React.Component {
             </Nav>
             <Nav navbar className="ml-auto mt-1">
               <NavItem>
+                 <a className="mr-4">
+                    <img src="assets/images/antena2.svg"
+                    alt="logofm88" width={45} height={35}/>
+                </a>
                 <a className="mr-2" href="https://www.facebook.com/fm88ayacucho/">
                     <img src="assets/images/social-icon/face7.png"
                     alt="logofm88" width={30} height={30}/>
