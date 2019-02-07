@@ -21,7 +21,7 @@ class Reproductor extends Component {
     return (
       <div className="mt-4">
          <ReactHowler
-          src={'http://www.music.helsinki.fi/tmt/opetus/uusmedia/esim/a2002011001-e02.wav'}
+          src={'http://streamall.alsolnet.com:443/ayacuchofm'}
           playing={this.state.playing}
           volume={this.state.volume}
         />
