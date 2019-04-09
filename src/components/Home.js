@@ -2,7 +2,7 @@ import React from 'react';
 import { Row, Col } from 'reactstrap';
 
 export default () => (
-	<div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+	<div id="carouselExampleControls" className="d-none d-md-flex carousel slide" data-ride="carousel">
 	  <div className="carousel-inner">
 	   	  <div className="carousel-item active">
 		      <Row className="bg-primary">
@@ -12,7 +12,7 @@ export default () => (
 					<li>Conductor: Mauricio Garcia. Móvil de exteriores: Leonardo Ledesma. Operacion técnica: Luciano Ocaño</li>
 		      	</Col>
 		      	<Col>
-		      	 <img src="assets/images/programas/fm882.jpg" className="w-100" height={252} alt="radiomovil" />
+		      	 <img src="assets/images/programas/fm882.jpg" className="w-100" height={400} alt="radiomovil" />
 		      	</Col>
 		      </Row>
 	      </div>
@@ -25,7 +25,7 @@ export default () => (
 					<li >Operación técnica: Luciano Ocaño</li>
 		      	</Col>
 		      	<Col>
-		      	 <img src="assets/images/programas/fm882.jpg" height={252} className="w-100" alt="de7a8" />
+		      	 <img src="assets/images/programas/fm882.jpg" height={400} className="w-100" alt="de7a8" />
 		      	</Col>
 		      </Row>
 	      </div>
@@ -37,7 +37,7 @@ export default () => (
 					<p>Conductora: Natalia Ferlaino</p>
           		</Col>
 		          <Col>
-		            <img src="assets/images/programas/top.jpg" height={252} className="w-100" alt="tophits" />
+		            <img src="assets/images/programas/top.jpg" height={400} className="w-100" alt="tophits" />
 		          </Col>
        		</Row>
 	      </div>
@@ -49,7 +49,7 @@ export default () => (
                 	<h4>Ricardo Maritnez Puentes</h4>
           		</Col>
 		          <Col>
-		            <img src="assets/images/programas/elexpresso.jpeg" height={252} className="w-100" alt="tophits" />
+		            <img src="assets/images/programas/elexpresso.jpeg" height={400} className="w-100" alt="tophits" />
 		          </Col>
        		</Row>
 	      </div>
